@@ -61,60 +61,122 @@
             </nav>
         </div>
     </header>
-    
-    <section id="product-display">
-        <div class="product">
-            <div class="img">
-                <img src="images/shoes_for_men-1.png" alt="product">
-            </div>
-            <div class="product-discription">
-                <h1>
-                    Seven by MS Dhoni Men's Sports Shoes
-                </h1>
-                <p>This is Sports Shoes from Seven Which is own by Ms dhoni,
-                    This is very comfortable and stylish shoes for sports and casual wear.
-                    It is available in different colors and sizes.
-                </p>
-                <div class="price-info">
-                    <div class="price">
-                        <div><sup>₹</sup>1,499</div>
-                    </div>
-                    <div class="save">
-                        <h3>Save 12%</h3>
-                        <p>Inclusive of all taxes</p>
-                    </div>
-                </div>
-                <div class="add-to-cart-quantity-info">
-                    <div class="quantity">
-                        <select>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-                    <div class="cart-button">
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-shopping"></i>
+    <main>
+
+        <div class="payment-details">
+            <div class="details">
+                <div class="order-details">
+                    <div class="payment-method-info">
+                        <div class="checkout">
+                            <span>checkout</span>
                         </div>
-                        <button>Add to Cart</button>
+                        <strong>Contact Details</strong>
+                        <div class="email-input">
+                            <label>Email ID</label>
+                            <input type="text" placeholder="John doe" required>
+                        </div>
+                        <div class="payment-input">
+                            <strong>Payment</strong>
+                            <div class="payment-method-option">
+                                <div class="payment-option-icon">
+                                    <div class="card payment-icon">
+                                        <i class="fa-solid fa-credit-card"></i>
+                                        <p>Card</p>
+                                    </div>
+                                    <div class="crypto  payment-icon-black">
+                                        <i class="fa-brands fa-bitcoin"></i>
+                                        <p>crypto</p>
+                                    </div>
+                                    <div class="bank payment-icon-black">
+                                        <i class="fa-solid fa-building-columns"></i>
+                                        <p>Bank</p>
+                                    </div>
+                                    <div class="three-dot-icon .payment-icon-black">
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-number">
+                                    <label>Card Number</label>
+                                    <input type="text" placeholder="John Deo" required>
+                                </div>
+                                <div class="card-aboutinfo">
+
+                                    <div class="Expiry-date card-about">
+                                        <label>Expiry</label>
+                                        <input type="text" name="expiry-date" id="expiry" placeholder="MM/YY"
+                                            maxlength="6">
+                                    </div>
+                                    <div class="cvc card-about">
+                                        <label>cvc</label>
+                                        <input type="text" name="cvc" id="cvc" placeholder="...">
+                                    </div>
+                                    <div class="country card-about">
+                                        <label for="country">Country</label>
+                                        <select name="country" id="country">
+                                            <option value="india">India</option>
+                                            <option value="america">usa</option>
+                                            <option value="japan">Japan</option>
+                                        </select>
+                                    </div>
+                                    <div class="zip card-about">
+                                        <label>zip</label>
+                                        <input type="text" name="zip" id="zip" placeholder="XXXXX">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="order-summary">
+                 <strong>Order Summary</strong>
+                <div class="payment-price-summary">
+                    <div class="price-details">
+                    <label for="coupon">Enter Coupon Code</label>
+                    <div class="coupon-box">
+                        <input type="text" placeholder="Coupon Code">
+                        <button class="coupon-button">Apply Coupon</button>
+                    </div>
+                    
+                        <div>
+                            <span>Sub Total</span>
+                            <span>₹4,700</span>
+                        </div>
+                        <div>
+                            <span>Taxes(if applicable)</span>
+                            <span>₹199</span>
+                        </div>
+                        <div>
+                            <span>Discount</span>
+                            <span>₹0</span>
+                        </div>
+                        <div class="total">
+                            <strong>Total</strong>
+                            <strong>₹4,999</strong>
+                        </div>
+                    </div>
+                    <div class="paynow-btn">
+                        <a href="payment.html" class="paynow-button">paynow ₹4,999 </a>
+                    </div>
+                    <div class="payment-img">
+                        <div class="secure-payment">
+                            <img src="images/secure-payment1.png" alt="secure payment" width="80px" >
+                        </div>
+                        <div class="rozarpay">
+                             <img src="images/rozar-pay.png" alt="secure payment" width="80px" >
+                        </div>
+                        <div class="payment protection">
+                             <img src="images/secure-payment2.png" alt="secure payment" width="80px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
-        <div class="scroll-cointainer">
-            <div class="product-img"><img src="images/shoes_for_men-2.png" alt="img-product">
-            </div>
-            <div class="product-img"><img src="images/shoes_for_men-3.png" alt="img-product">
-            </div>
-            <div class="product-img"><img src="images/shoes_for_men-4.png" alt="img-product">
-            </div>
-            <div class="product-img"><img src="images/shoes_for_men-5.png" alt="img-product">
-            </div>
-        </div>
-    </section>
-        <section id="about">
+
+            <section id="about">
         <div class="about-thala7">
             <h1>About Thala Seven Shoe Store</h1>
             <p>
@@ -178,7 +240,7 @@
             </div>
         </div>
     </section>
-
+    </main>
     <footer class="footer">
         <div class="achievements">
 

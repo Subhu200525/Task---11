@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thala7-Sneaker Store is an online Shoes store owned by MSD.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <title>Thala7-Sneaker Store </title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <strong class="part-1">Thala</strong>
+                    <strong class="part-2">7.</strong>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <select class="category-select">
+                            <option value="Brands">Brands</option>
+                            <option value="Nike">Nike</option>
+                            <option value="Adidas">Adidas</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <select class="category-select">
+                            <option value="More">More</option>
+                            <option value="Sneaker">Sneaker</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Running">Running</option>
+                        </select>
+                    </li>
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+
+                <div class="cart">
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    <span class="cart-count">0</span>
+                </div>
+
+                <div class="profile">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="Shopping-cart" class="shoppingcart-container">
+            <div class="shopping-cart-head">
+                <h1>Shopping Cart</h1>
+            </div>
+
+            <div class="cart-container">
+                <table>
+                    <tr>
+                        <td>Products</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Seven By M.s Dhoni w....</td>
+                            <td>
+                                <button class="quantity-decrease_btn">-</button>
+                                1
+                                <button class="quantity-increase_btn">+</button>
+                            </td>
+                            <td>
+                                ₹4,999
+                            </td>
+                            <td>
+                                <button class="remove-btn">
+                                    <img src="images/cross sign.png" alt="remove-btn" width="10px">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Seven By M.s Dhoni w....</td>
+                            <td>
+                                <button class="quantity-decrease_btn">-</button>
+                                1
+                                <button class="quantity-increase_btn">+</button>
+                            </td>
+                            <td>
+                                ₹4,999
+                            </td>
+                            <td>
+                                <button class="remove-btn">
+                                    <img src="images/cross sign.png" alt="remove-btn" width="10px">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Seven By M.s Dhoni w....</td>
+                            <td>
+                                <button class="quantity-decrease_btn">-</button>
+                                1
+                                <button class="quantity-increase_btn">+</button>
+                            </td>
+                            <td>
+                                ₹4,999
+                            </td>
+                            <td>
+                                <button class="remove-btn">
+                                    <img src="images/cross sign.png" alt="remove-btn" width="10px">
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="price-summary">
+                    <div class="price-details">
+                        <label for="coupon">Enter Coupon Code</label>
+                        <div class="coupon-box">
+                            <input type="text" placeholder="Coupon Code">
+                            <button class="coupon-button">Apply Coupon</button>
+                        </div>
+
+                        <div>
+                            <span>Sub Total</span>
+                            <span>₹4,700</span>
+                        </div>
+                        <div>
+                            <span>Taxes(if applicable)</span>
+                            <span>₹199</span>
+                        </div>
+                        <div>
+                            <span>Discount</span>
+                            <span>₹0</span>
+                        </div>
+                        <div class="total">
+                            <strong>Total</strong>
+                            <strong>₹4,999</strong>
+                        </div>
+                    </div>
+                    <div class="paynow-btn">
+                        <a href="payment.html" class="paynow-button">paynow ₹4,999 </a>
+                    </div>
+                    <div class="payment-img">
+                        <div class="secure-payment">
+                            <img src="images/secure-payment1.png" alt="secure payment" width="80px">
+                        </div>
+                        <div class="rozarpay">
+                            <img src="images/rozar-pay.png" alt="secure payment" width="80px">
+                        </div>
+                        <div class="payment protection">
+                            <img src="images/secure-payment2.png" alt="secure payment" width="80px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Continue-Shopping-button">
+                <a href="product.html">
+                    < Continue Shopping </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-thala7">
+                <h1>About Thala Seven Shoe Store</h1>
+                <p>
+                    Welcome to **Thala Seven Shoe Store**, your trusted destination for stylish, comfortable, and
+                    quality
+                    footwear. We bring together a wide range of shoes designed for everyday comfort, casual outings,
+                    sports,
+                    and
+                    special occasions.
+
+                    At Thala Seven, we believe the right pair of shoes is more than just footwear—it is a part of your
+                    style
+                    and
+                    personality. Our goal is to provide customers with quality products, modern designs, and a
+                    comfortable
+                    shopping experience at reasonable prices.
+
+                    Whether you are looking for everyday sneakers, sports shoes, casual footwear, or trendy styles,
+                    Thala
+                    Seven,
+                    Shoe Store is here to help you find the perfect pair.
+
+                    Step into style. Walk with confidence. Choose Thala Seven.
+                </p>
+            </div>
+        </section>
+         <section class="contact-container" id="contact">
+        <div class="heading">
+            <h1>Contact Us</h1>
+            <p>Have a question? We'd love to hear from you.</p>
+        </div>
+        <div class="contact-box"> <!-- Contact Information -->
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <div class="info">
+                    <h3>📍 Address</h3>
+                    <p>Thala Seven Shoe Store<br> Main Market, Digha, Bihar</p>
+                </div>
+                <div class="info">
+                    <h3>📞 Phone</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="info">
+                    <h3>✉️ Email</h3>
+                    <p>thalaseven@gmail.com</p>
+                </div>
+                <div class="info">
+                    <h3>🕒 Opening Hours</h3>
+                    <p>Monday - Sunday<br> 9:00 AM - 9:00 PM</p>
+                </div>
+            </div> <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <div class="form-group"> <label for="name">Your Name</label> <input type="text" id="name"
+                            placeholder="Enter your name" required> </div>
+                    <div class="form-group"> <label for="email">Email</label> <input type="email" id="email"
+                            placeholder="Enter your email" required> </div>
+                    <div class="form-group"> <label for="phone">Phone</label> <input type="tel" id="phone"
+                            placeholder="Enter your phone number"> </div>
+                    <div class="form-group"> <label for="message">Message</label> <textarea id="message"
+                            placeholder="Write your message..." required></textarea> </div> <button type="submit"
+                        class="btn send-massage-btn"> Send Message </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="achievements">
+
+            <div class="items">
+                <div class="icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div>
+                    <h3>2k+</h3>
+                    <p>Reviews</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                    <h3>30k+</h3>
+                    <p>Customers</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="icon">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div>
+                    <h3>High</h3>
+                    <p>Quality</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                    <h3>4.5/5</h3>
+                    <p>Rating</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
